@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Puppies Play", cursive;
+  font-style: normal;
+  font-size: 70px;
+  background-color: #f9c2d0; /* Adjust the background color to match your design */
+}
+
+#found_text{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#candy-counter {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#candy-counter img {
+  width: 60px;
+  height: auto;
+  margin: 0 5px;
+}
+
+#candy-display {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  /* height: calc(100% - px); Adjust the height based on your header's actual height */
+}
+
+#candy-display img {
+  max-width: 50%;
+  height: 30%;
+}
+
+
+#candyland {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+
+#candyland_picture img {
+  width: 50%;
+  height: auto;
+}
